@@ -16,3 +16,12 @@ microservice:
     endpoints:
       endpoint:
         uri:  http://ORDER-SERVICE/order/bookorder
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/payments
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
